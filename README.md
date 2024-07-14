@@ -13,6 +13,7 @@ In the previous project I implemented DDPM model, where the model learned to pre
 
 ### New method - DDIM + Distillation = Progressive distillation
 In this project I aimed to solve these 2 limitations by making 3 changes as presented by the orignal paper:
+
 **1. DDIM Sampler**:
 
 **2. Model Parameterization**:
