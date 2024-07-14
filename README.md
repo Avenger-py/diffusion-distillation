@@ -8,10 +8,10 @@ Coming soon ..
 ### Diffusion models
 Diffusion models are latent variable generative models that define a Markov chain of diffusion steps to slowly add random noise to the data, transforming it into an isotropic Gaussian distribution. The model then learns to reverse this diffusion process, allowing it to generate new samples that resemble the original training data.
 
-### Previous method - DDPM
+### Previous method: DDPM
 In the previous project I implemented DDPM model, where the model learned to predict noise in a noisy image created by forward diffusion process. Then we started from a pure noisy image and sampled images by iteratively subtracting noise from the initial image. This process had 2 major limitations - dull/not sharp/blurry images and slow sampling speed.
 
-### New method - DDIM + Distillation = Progressive distillation
+### New method: DDIM + Distillation = Progressive distillation
 In this project I aimed to solve these 2 limitations by making 3 changes as presented by the orignal paper:
 
 **1. DDIM Sampler**:
