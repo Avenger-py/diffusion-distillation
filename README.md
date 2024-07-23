@@ -13,6 +13,8 @@ Diffusion models are latent variable generative models that define a Markov chai
 ### Previous method: DDPM
 In the previous project I implemented DDPM model, where the model learned to predict noise in a noisy image created by forward diffusion process. Then we started from a pure noisy image and sampled images by iteratively subtracting noise from the initial image. This process had 2 major limitations - dull/not sharp/blurry images and slow sampling speed.
 
+<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/ddim-vs-ddpm.png" width="1100" height="300">
+
 ### New method: DDIM + Distillation = Progressive distillation
 In this project I aimed to solve these 2 limitations by making 3 changes as presented by the orignal paper:
 
