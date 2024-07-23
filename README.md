@@ -28,7 +28,7 @@ In this project I aimed to solve these 2 limitations by making 3 changes as pres
 
 **Distillation: 256 sampling steps --> 2 sampling steps**
 
-<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/compare-distillation.png" width="1000" height="280">
+<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/compare-distillation.png" width="1000" height="270">
 
 ## Dataset
 I used Stanford Cars Dataset, which contains about 16k car images. Steps to download dataset: https://github.com/pytorch/vision/issues/7545#issuecomment-1631441616
