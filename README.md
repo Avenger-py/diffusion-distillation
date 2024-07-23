@@ -53,7 +53,7 @@ I used on-demand cloud GPU service vast.ai and trained the model on RTX 4090 (24
 4. Run `Diffusion_distillation.ipynb`
 
 ## Training
-Training settings are similar to my previous project: [smol-Diffusion](https://github.com/Avenger-py/smol-Diffusion)
+Training settings are similar to my previous project: [smol-Diffusion](https://github.com/Avenger-py/smol-Diffusion).
 In case of distillation, I decreased the learning rate by 10x
 
 ## Resources and Acknowledgments
