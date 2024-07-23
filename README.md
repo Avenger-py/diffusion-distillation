@@ -26,6 +26,8 @@ In this project I aimed to solve these 2 limitations by making 3 changes as pres
 
 <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/ddim-vs-ddpm.png" width="1000" height="250">
 
+<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/compare-distillation.png" width="1000" height="280">
+
 ## Dataset
 I used Stanford Cars Dataset, which contains about 16k car images. Steps to download dataset: https://github.com/pytorch/vision/issues/7545#issuecomment-1631441616
 
