@@ -50,7 +50,7 @@ I used on-demand cloud GPU service vast.ai and trained the model for x hours on 
 1. Clone the repo
 2. Install the requirements mentioned above
 3. Place the dataset inside `data` folder in the working directory
-4. 
+4. Run `Diffusion_distillation.ipynb`
 
 ## Training
 
