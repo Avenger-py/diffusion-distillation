@@ -26,6 +26,8 @@ In this project I aimed to solve these 2 limitations by making 3 changes as pres
 
 <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/ddim-vs-ddpm.png" width="1000" height="250">
 
+**Distillation: 256 sampling steps --> 2 sampling steps**
+
 <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/compare-distillation.png" width="1000" height="280">
 
 ## Dataset
