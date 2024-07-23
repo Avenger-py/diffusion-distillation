@@ -3,6 +3,8 @@ Implemented DDIM Diffusion and model distillation for fast and deterministic sam
 
 **Generated Images**
 
+Sampling steps = 256
+
 <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_0_256.png" width="200" height="200"> <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_1_256.png" width="200" height="200"> <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_2_256.png" width="200" height="200"> <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_3_256.png" width="200" height="200">
 
 ## What and how?
@@ -16,11 +18,11 @@ In the previous project I implemented DDPM model, where the model learned to pre
 ### New method: DDIM + Distillation = Progressive distillation
 In this project I aimed to solve these 2 limitations by making 3 changes as presented by the orignal paper:
 
-**1. DDIM Sampler**:
+**1. DDIM Sampler**: Introduces non-markovian approach, enabling us to skip steps during sampling. Variance is 0 and hence no noise is added during sampling. Making the whole process deterministic.
 
-**2. Model Parameterization**:
+**2. Model Parameterization**: Model is paramterized to directly predict denoised image instead of the noise.
 
-**3. Distillation**:   
+**3. Distillation**: A base model is used as a teacher model to train a student model (identical model initialized with the weights of teacher model). The student model learns to mimick 2 sampling steps made with teacher model, in 1 step. If the initial sampling steps were N then it becomes N/2 for the student model. The student model then becomes the new teacher model and a new student model can be trained, further halving the sampling steps (N/4). This process can be repeated mutliple times.     
 
 ## Comparing results
 
