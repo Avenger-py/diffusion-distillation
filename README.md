@@ -44,7 +44,7 @@ I used Stanford Cars Dataset, which contains about 16k car images. Steps to down
 - Jupyterlab
 
 ### Hardware
-I used on-demand cloud GPU service vast.ai and trained the model for x hours on RTX 4090.
+I used on-demand cloud GPU service vast.ai and trained the model on RTX 4090 (24gb vram).
 
 ## How to run?
 1. Clone the repo
@@ -53,11 +53,14 @@ I used on-demand cloud GPU service vast.ai and trained the model for x hours on 
 4. Run `Diffusion_distillation.ipynb`
 
 ## Training
-
-## Sampling
-Sampling is quite slow. I used 15000 timesteps to obtain respectable results.
-Sampling is major limitation of DDPM diffusion. The images are blurry, less sharp, less colorful and look like mean of the data.
+Training settings are similar to my previous project: [smol-Diffusion](https://github.com/Avenger-py/smol-Diffusion)
+In case of distillation, I decreased the learning rate by 10x
 
 ## Resources and Acknowledgments
+Based on the papers: 
+1. [*Progressive Distillation For Fast Sampling Of Diffusion Models*](https://arxiv.org/abs/2202.00512)
+2. [*Denoising Diffusion Implicit Models*](https://arxiv.org/pdf/2010.02502)
+
+Some inspiration taken from: https://github.com/lucidrains/denoising-diffusion-pytorch/tree/main/denoising_diffusion_pytorch 
 
 
