@@ -1,7 +1,7 @@
 # diffusion-distillation
 Implemented DDIM Diffusion and model distillation for fast and deterministic sampling as proposed by the paper: [*Progressive Distillation For Fast Sampling Of Diffusion Models*](https://arxiv.org/abs/2202.00512)
 
-<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_0_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_1_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_2_256.png" width="220" height="220">   <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_3_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_4_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_5_256.png" width="220" height="220">
+<img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_0_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_1_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_2_256.png" width="220" height="220">       <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_3_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_4_256.png" width="220" height="220">  <img src="https://github.com/Avenger-py/diffusion-distillation/blob/main/assets/image_5_256.png" width="220" height="220">
 
 ## What and how?
 
