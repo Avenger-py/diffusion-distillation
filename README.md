@@ -67,6 +67,8 @@ Based on the papers:
 1. [*Progressive Distillation For Fast Sampling Of Diffusion Models*](https://arxiv.org/abs/2202.00512)
 2. [*Denoising Diffusion Implicit Models*](https://arxiv.org/pdf/2010.02502)
 
-Some inspiration taken from: https://github.com/lucidrains/denoising-diffusion-pytorch/tree/main/denoising_diffusion_pytorch 
+Some inspiration taken from: 
+1. https://github.com/lucidrains/denoising-diffusion-pytorch/tree/main/denoising_diffusion_pytorch
+2. https://github.com/google-research/google-research/tree/master/diffusion_distillation
 
 
